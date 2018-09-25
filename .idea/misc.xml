@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/myzk/pom.xml" />
+        <option value="$PROJECT_DIR$/myhive/pom.xml" />
+        <option value="$PROJECT_DIR$/myhbase/pom.xml" />
+        <option value="$PROJECT_DIR$/myphoenix/pom.xml" />
+        <option value="$PROJECT_DIR$/myavro/pom.xml" />
+        <option value="$PROJECT_DIR$/flume/pom.xml" />
+        <option value="$PROJECT_DIR$/mykafka/pom.xml" />
+        <option value="$PROJECT_DIR$/music164-log-genLog/pom.xml" />
+        <option value="$PROJECT_DIR$/music164-log-dataETL/pom.xml" />
+        <option value="$PROJECT_DIR$/music164-log-dataETLday03/pom.xml" />
+        <option value="$PROJECT_DIR$/myjava/pom.xml" />
+        <option value="$PROJECT_DIR$/com.oldboy.mybatis.test/pom.xml" />
+        <option value="$PROJECT_DIR$/myspring/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/myhadoop/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

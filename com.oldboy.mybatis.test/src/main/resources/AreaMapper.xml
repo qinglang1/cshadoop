@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 定义名字空间 -->
+<mapper namespace="areas">
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+       insert into areas(areaname, parentid) values(#{areaname},#{parentarea.id})
+    </insert>
+    
+    
+    <select id="selectfromtop" resultMap="rmArea">
+        select
+        a1.id a1id,a1.areaname a1areaname,
+        a2.id a2id,a2.areaname a2areaname,
+        a3.id a3id,a3.areaname a3areaname
+         from areas a1 left outer join areas a2  on a1.id=a2.parentid
+         left outer join areas a3 on a2.id=a3.parentid
+         where a1.id=#{id};
+    </select>
+
+    <resultMap id="rmArea" type="_Area">
+        <id column="a1id" property="id"/>
+        <result column="a1areaname" property="areaname"/>
+       <collection property="childareas" ofType="_Area" column="a1id">
+           <id column="a2id" property="id"/>
+           <result column="a2areaname" property="areaname"/>
+        <collection property="childareas" ofType="_Area" column="a2id">
+            <id column="a3id" property="id"/>
+            <result column="a3areaname" property="areaname"/>
+        </collection>
+       </collection>
+
+    </resultMap>
+
+
+
+
+
+
+</mapper>

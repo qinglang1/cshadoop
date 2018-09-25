@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="csmyhadoop" />
+        <module name="flume" />
+        <module name="music164-log-dataETL" />
+        <module name="music164-log-dataETLday03" />
+        <module name="music164-log-genLog" />
+        <module name="myavro" />
+        <module name="Mybatis" />
+        <module name="myhadoop" />
+        <module name="myhbase" />
+        <module name="myhive" />
+        <module name="myjava" />
+        <module name="mykafka" />
+        <module name="myphoenix" />
+        <module name="myspring" />
+        <module name="myzk" />
+        <module name="springmvc" />
+        <module name="ssm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="csmyhadoop" target="1.5" />
+      <module name="flume" target="1.5" />
+      <module name="music164-log-dataETL" target="1.5" />
+      <module name="music164-log-dataETLday03" target="1.5" />
+      <module name="music164-log-genLog" target="7" />
+      <module name="myavro" target="1.5" />
+      <module name="Mybatis" target="1.5" />
+      <module name="myhadoop" target="1.5" />
+      <module name="myhbase" target="6" />
+      <module name="myhive" target="1.5" />
+      <module name="myjava" target="7" />
+      <module name="mykafka" target="7" />
+      <module name="myphoenix" target="1.5" />
+      <module name="myspring" target="1.5" />
+      <module name="myzk" target="1.5" />
+      <module name="springmvc" target="1.5" />
+      <module name="ssm" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
